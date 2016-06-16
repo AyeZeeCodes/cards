@@ -12,6 +12,6 @@ $(document).ready(function() {
     })
   });
   fullDeck.forEach(function(card) {
-    $("#output").append("<li>" + card + "</li>");
+    $("#output").append("<div class='col-sm-4'><div class='well'>" + card + "</div></div>");
   });
 });
